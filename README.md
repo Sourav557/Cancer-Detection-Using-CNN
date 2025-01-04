@@ -22,9 +22,13 @@ Dataset : https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tu
 
 # How It Works
 Collecting Data: First, a dataset of labeled medical images is gathered. This includes both cancerous and non-cancerous images.
+
 Prepping the Data: The images are cleaned up and transformed to make them ready for training. Think resizing, normalizing, and adding some variations (augmentation).
+
 Building the Model: A CNN architecture is created (or fine-tuned using a pre-trained one) to learn from the data.
+
 Training & Testing: The model is trained on most of the dataset and tested on the rest to see how well it performs.
+
 Testing on New Images: The final step is checking how the model handles completely new images it hasn’t seen before.
 
 # What’s Next?
