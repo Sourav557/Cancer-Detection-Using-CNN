@@ -3,13 +3,21 @@ This project is all about using Convolutional Neural Networks (CNN) to help dete
 
 # What This Project Does
 Uses Deep Learning: The core of the project is a CNN model designed specifically for classifying medical images.
+
 Processes Data: The images go through preprocessing steps like resizing, normalizing, and augmenting to make the model more accurate.
+
 Learns from Experts: By using pre-trained models like VGG19, the system gets a head start on learning and performs better with less training time.
+
 Evaluates Performance: The model is tested with metrics like accuracy, precision, recall, and more to ensure it works well in real-world scenarios.
+
 Tools and Tech Behind the Scenes
+
 Language: Python
+
 Libraries: TensorFlow, Keras, NumPy, Pandas, Matplotlib, OpenCV
+
 Environment: Jupyter Notebook or Google Colab
+
 Dataset : https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
 
 # How It Works
